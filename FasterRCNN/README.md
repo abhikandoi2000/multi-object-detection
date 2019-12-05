@@ -29,7 +29,7 @@ Download the trained model from [here](https://www.dropbox.com/s/9kp7gf5tcjurtnn
 
 ## Install
 
-Note: you can skip step 1 if you don't want to run the entire training code and just want to see a demo.
+Note: you can skip step 1 and 2 if you don't want to run the entire training code and just want to see a demo.
 
 1. Be in FasterRCNN folder and run `mkdir -p data/pretrained_model` and download the models from the links above into this folder (FasterRCNN/data/pretrained_model)
 
@@ -42,7 +42,7 @@ Note: you can skip step 1 if you don't want to run the entire training code and 
 If this (step 4) fails use `export PYTHONPATH='$PYTHONPATH:/path/to/lib/directory/inside/FasterRCNN/folder'` followed by `python setup.py build develop --install-dir /path/to/lib/directory/inside/FasterRCNN/folder`    
 
 For example:
-`export PYTHONPATH='$PYTHONPATH:/datasets/home/home-01/44/344/abkandoi/multi-object-detection/FasterRCNN/lib`    
+`export PYTHONPATH='$PYTHONPATH:/datasets/home/home-01/44/344/abkandoi/multi-object-detection/FasterRCNN/lib'`    
 `python setup.py build develop --install-dir /datasets/home/home-01/44/344/abkandoi/multi-object-detection/FasterRCNN/lib`
 
 
