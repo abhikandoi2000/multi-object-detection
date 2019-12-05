@@ -21,7 +21,7 @@ These models are only useful if you'd like to train a Faster RCNN model. For a p
 
 [Download here](https://www.dropbox.com/s/zpu4sa2fnoxypfv/resnet50_caffe.pth?dl=0) and save to the folder `FasterRCNN/data/pretrained_model` as described in the Install section (make sure name is `resnet50_caffe.pth`)
 
-### Pretrained Faster R-CNN models
+## Pretrained Faster R-CNN models
 
 Download the trained model from [here](https://www.dropbox.com/s/9kp7gf5tcjurtnn/faster_rcnn_11_7_3723.pth?dl=0) and move it to the directory
 `FasterRCNN/models/vgg16/pascal_voc_0712`
