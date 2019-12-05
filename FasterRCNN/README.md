@@ -29,6 +29,8 @@ Download the trained model from [here](https://www.dropbox.com/s/9kp7gf5tcjurtnn
 
 ## Install
 
+Note: you can skip step 1 if you don't want to run the entire training code and just want to see a demo.
+
 1. Be in FasterRCNN folder and run `mkdir -p data/pretrained_model` and download the models from the links above into this folder (FasterRCNN/data/pretrained_model)
 
 2. Download VOC dataset into the folder named VOCdevkit, then inside the `data` folder run the command `ln -s /path/to/VOCdevkit VOCdevkit2007` (see [link](https://github.com/rbgirshick/py-faster-rcnn#beyond-the-demo-installation-for-training-and-testing-models) for reference)
