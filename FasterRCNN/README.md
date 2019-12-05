@@ -27,7 +27,6 @@ Download the trained model from [here](https://www.dropbox.com/s/9kp7gf5tcjurtnn
 `FasterRCNN/models/vgg16/pascal_voc_0712`
 
 
-
 ## Install
 
 1. Be in FasterRCNN folder and run `mkdir -p data/pretrained_model` and download the models from the links above into this folder (FasterRCNN/data/pretrained_model)
