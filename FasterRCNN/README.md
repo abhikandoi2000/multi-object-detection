@@ -1,5 +1,7 @@
 # Faster R-CNN
 
+Here we try two different backbone models for Faster R-CNN, *resnet50* and *vgg16*. Furthermore, we analyze the performance of these two backbone models.
+
 ## Requirements
 
 
