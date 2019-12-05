@@ -1,4 +1,4 @@
-#  Multi-Object Detection using YOLO
+# YOLO
 Here we try two different backbone models for YOLO, *resnet50* and *vgg16_bn*. Furthermore, we analyze the performance of two different backbone models.
 
 ## Getting Started
