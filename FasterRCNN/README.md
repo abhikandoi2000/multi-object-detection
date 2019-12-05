@@ -49,9 +49,45 @@ For example:
 
     .
     ├── demo.ipynb              # To show how well our model perform on a single image
+    ├── evaluate.ipynb          # To evaluate Average Precision on all classes and mAP on the test dataset
     ├── train.ipynb             # For a full trainning on the VOC 2007 & 2012 training dataset
     ├── result                  # Folder contains predicted result / training loss / validation loss
-    ├── data                    # Folder contains pretrained models
+    ├── cfgs                    # YAML config files with model parameters (pooling mode etc.)
+    ├── data                    # Folder contains pretrained models (VGG16 and ResNet50); This folder has to be made (see Install section)
     ├── models                  # Folder stores checkpoints for Faster RCNN models
-    ├── lib                     # Source libraries used for loading data, creating Faster RCNN model and evaluating loss
-    └── README.md
+    ├── lib                     # Source libraries used for loading data, for creating Faster RCNN model and evaluating loss
+    ├── 2012_004331.jpg         # Sample image from the PASCAL VOC 2012 dataset for demo
+    ├── _init_paths.py          # File to add lib folder to PYTHONPATH
+    ├── requirements.txt        # File containing python library requirements for pip
+    └── README.md               # This file itself
+
+
+## Running the tests
+
+### Executable Files
+
+* For a quick demo, run the Jupyter Notebook `demo.ipynb`.
+* For a full training on the dataset, run the Jupyter Notebook `train.ipynb`.
+* For evaluating the mAP on the PASCAL VOC 2007 test set, run the Jupyter Notebook `evaluate.ipynb`.
+
+## Author
+
+* **Abhishek Kandoi** - *Initial work* - [abhikandoi2000](https://github.com/abhikandoi2000)
+
+## Citation
+
+    @article{jjfaster2rcnn,
+        Author = {Jianwei Yang and Jiasen Lu and Dhruv Batra and Devi Parikh},
+        Title = {A Faster Pytorch Implementation of Faster R-CNN},
+        Journal = {https://github.com/jwyang/faster-rcnn.pytorch},
+        Year = {2017}
+    }
+
+    @inproceedings{renNIPS15fasterrcnn,
+        Author = {Shaoqing Ren and Kaiming He and Ross Girshick and Jian Sun},
+        Title = {Faster {R-CNN}: Towards Real-Time Object Detection
+                 with Region Proposal Networks},
+        Booktitle = {Advances in Neural Information Processing Systems ({NIPS})},
+        Year = {2015}
+    }
+
