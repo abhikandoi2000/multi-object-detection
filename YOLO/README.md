@@ -20,8 +20,8 @@ To run the notebook, you need the following packages installed:
 ## Code organization
 
     .
-    ├── demo.ipynb              # To showing how well our model perform on a single image
-    ├── train.ipynb             # For a full traininng on the VOC 2007 & 2012 training dataset
+    ├── demo.ipynb              # To show how well our model perform on a single image
+    ├── train.ipynb             # For a full trainning on the VOC 2007 & 2012 training dataset
     ├── result                  # Folder contains predicted result / training loss / validation loss
     ├── model                   # Folder contains pretrained models
     ├── src                     # Python scripts
@@ -45,7 +45,7 @@ To run the notebook, you need the following packages installed:
 
 ### Steps
 
-1. To run the full training, you will have to download the folder `assets` as mentioned in Intalling Section and put it in this repository.
+1. To run the full training, you will have to download the folder `assets` as mentioned in Installing Section and put it in this repository.
 2. If you do not want to train the model yourself, you can also download the folder `model` as mentioned in Installing Section and overwrite the folder `model` in this repository.
 3. Run the following command to see how the model performs on the VOC2007 testing dataset.
 ```
