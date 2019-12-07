@@ -55,7 +55,6 @@ python eval_voc.py
 ## Authors
 
 * **Arthur Hsieh** - *Initial work* - [arthur960304](https://github.com/arthur960304)
-* **Louis Lu** - *Initial work* - [louis910](https://github.com/louis910)
 
 ## References
 [1] - [You Only Look Once: Unified, Real-Time Object Detection](https://arxiv.org/pdf/1506.02640.pdf)
