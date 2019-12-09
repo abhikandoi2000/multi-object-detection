@@ -13,6 +13,7 @@ To run the notebook, you need the following packages installed:
 * Matplotlib
 
 ### Installing
+You can skip the following installation steps if you only want to run `demo.ipynb`.
 
 * Download the full dataset [here](https://drive.google.com/drive/folders/1jLSm7vNvcXMfPVHEtjNCFNrsXIIy9_s5?usp=sharing) on Google Drive.
 * Download the trained model [here](https://drive.google.com/drive/folders/1oUUUSJq1h5hZItsM-euEJjwOLvCKaQck?usp=sharing) on Google Drive.
